@@ -301,7 +301,8 @@ protected void onCreate(Bundle savedInstanceState) {
     listview= (ListView) findViewById(R.id.list_view);//获取listview
     sqLiteDatabase=new NotePadProvider.DatabaseHelper(this).getReadableDatabase();
     SearchView search= (SearchView) findViewById(R.id.search_view);//获取搜索视图
-    
+ ```
+  
 #### 运行结果：
 ![image](https://github.com/yourslai/Android_MidTest/blob/master/images/2.png) 
 
