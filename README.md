@@ -212,6 +212,7 @@ public class NotesList extends ListActivity {
 
 
 #### 运行结果：
+![image](https://github.com/yourslai/Android_MidTest/blob/master/images/1.png) 
 
 #### 2、添加查询功能
 
@@ -300,12 +301,4 @@ protected void onCreate(Bundle savedInstanceState) {
     listview= (ListView) findViewById(R.id.list_view);//获取listview
     sqLiteDatabase=new NotePadProvider.DatabaseHelper(this).getReadableDatabase();
     SearchView search= (SearchView) findViewById(R.id.search_view);//获取搜索视图
-    search.setOnQueryTextListener(NoteSearch.this);  
-}
-```
-
-
-
-#### 运行结果:
-
-
+    
