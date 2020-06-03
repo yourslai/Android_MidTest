@@ -302,3 +302,8 @@ protected void onCreate(Bundle savedInstanceState) {
     sqLiteDatabase=new NotePadProvider.DatabaseHelper(this).getReadableDatabase();
     SearchView search= (SearchView) findViewById(R.id.search_view);//获取搜索视图
     
+#### 运行结果：
+![image](https://github.com/yourslai/Android_MidTest/blob/master/images/2.png) 
+
+
+####116052017179  赖伟潮
